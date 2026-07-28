@@ -1,4 +1,4 @@
-# 🚀 PostgreSQL Data Engineering Pipeline
+#  PostgreSQL Data Engineering Pipeline
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-Enabled-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -10,7 +10,7 @@ The entire stack is containerized using **Docker Compose** with built-in health 
 
 ---
 
-## 🏗 Architecture
+##  Architecture
 1.  **Extract:** Fetches raw JSON data from the [NewsAPI](https://newsapi.org/) (Tech Headlines).
 2.  **Transform:** Cleans data, handles missing values, and standardizes schema using `Pandas`.
 3.  **Load:** Inserts data into a `PostgreSQL` database using `SQLAlchemy`.
@@ -18,7 +18,7 @@ The entire stack is containerized using **Docker Compose** with built-in health 
 
 ---
 
-## ⚡ Key Features
+##  Key Features
 * **Containerization:** Fully isolated environment using Docker.
 * **Resilience:** Implements `healthcheck` in Docker Compose to prevent race conditions (waiting for DB to be ready).
 * **Security:** Uses `.env` files to manage sensitive credentials (no hardcoded passwords).
@@ -26,7 +26,7 @@ The entire stack is containerized using **Docker Compose** with built-in health 
 
 ---
 
-## 🛠 Project Structure
+## Project Structure
 ```bash
 ├── main.py              # The core ETL script
 ├── Dockerfile           # Python environment definition
